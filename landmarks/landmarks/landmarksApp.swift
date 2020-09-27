@@ -11,7 +11,7 @@ import SwiftUI
 struct landmarksApp: App {
     var body: some Scene {
         WindowGroup {
-            LandmarkDetail()
+            LandmarkDetail(landmark: landmarkData[0])
         }
     }
 }
